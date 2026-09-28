@@ -1,0 +1,22 @@
+#programchallenge:
+
+blah = [1,7,19,22,24,8] 
+
+#generate even or odd numbers from the list
+even_numbers = [num for num in blah if num % 2 ==0]
+odd_numbers = [num for num in blah if num % 2 !=0] 
+
+for i in even numbers: 
+    print(f"{i} is an even number")
+
+for i in odd numbers:
+    print (f"{i} is an odd number") 
+
+    or 
+
+#correct version:
+for number in blah: 
+    if (number % 2 == 0): 
+        print(f"{number} is an even number")
+    else:
+        print(f"{number} is an odd number")
